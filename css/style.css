@@ -10,15 +10,26 @@
 
 
 body {
-    font-family: 'Roboto', "Arial", sans-serif;
+    font-family: 'Droid Serif', "Arial", sans-serif;
     font-weight:300;
 }
 
 
+ul li {
+    list-style:none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
 
 
 /*************************
-**** Structural Styles ***
+*****  Content Styles ****
 **************************/
 
 .chinua-pic {
@@ -27,4 +38,60 @@ body {
     max-height:400px;
     width:auto;
     height:auto;
+    border-radius: 5px;
+    margin-top:3rem;
+}
+
+.main-content {
+    background:url("../images/chinua-bg.jpg") 0 0 no-repeat;
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color:rgba(0,0,0,0.7);
+}
+
+.content-card {
+    display:flex;
+    border-radius:6px;
+    padding:1rem;
+    background-color: white;
+    border:3px solid #270a33;
+}
+
+.content-card div:first-of-type span {
+    display:inline-block;
+    margin-top:0.8rem;
+}
+
+.content-card div {
+    margin-right: 4rem;
+
+}
+
+.content-card div blockquote {
+    margin-top:1rem;
+    margin-bottom:0;
+}
+
+.chinua-history h3 {
+    text-transform: uppercase;
+    color:#270a33;
+}
+
+.chinua-history ul {
+    padding:0;
+}
+
+.chinua-history ul li {
+    margin-bottom:0.3rem;
+}
+
+.chinua-history ul li > i {
+    color:#270a33;
+    margin-right:0.5rem;
 }
