@@ -59,7 +59,9 @@ a {
     display:flex;
     border-radius:6px;
     padding:1rem;
-    background-color: white;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+                rgba(255,255,255,1) 40%, rgba(239,222,247,1) 57%,
+                rgba(242,225,250,1) 61%, rgba(245,229,252,1) 71%, rgba(246,237,250,1) 100%);
     border:3px solid #270a33;
 }
 
@@ -88,7 +90,7 @@ a {
 }
 
 .chinua-history ul li {
-    margin-bottom:0.3rem;
+    margin-bottom:0.5rem;
 }
 
 .chinua-history ul li > i {
