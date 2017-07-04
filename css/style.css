@@ -36,27 +36,27 @@ a {
 **************************/
 
 .chinua-pic {
-    display:block;
-    max-width:600px;
-    max-height:400px;
-    width:auto;
-    height:auto;
     border-radius: 5px;
-    margin-top:3rem;
+    margin-top:0;
+    max-width:100%;
 }
 
 .main-content {
-    background:url("../images/chinua-bg.jpg") 0 0 no-repeat;
+    background:url("../images/chinua-bg.jpg") center center no-repeat;
     background-size: cover;
-    display:flex;
-    max-height:1000px;
+    display:block;
+    min-height:800px;
     align-items: center;
     justify-content: center;
     padding:1.5rem;
+
 }
 
 .overlay {
-  /*  background-color:rgba(0,0,0,0.7);*/
+   /* display: block;
+    background-color:rgba(0,0,0,0.7);
+    overflow:hidden;
+    height:100%;*/
 }
 
 .content-card {
@@ -69,6 +69,7 @@ a {
                 rgba(242,225,250,1) 61%, rgba(245,229,252,1) 71%, rgba(246,237,250,1) 100%);
     border:2px solid #270a33;
     justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -78,8 +79,7 @@ a {
 }
 
 .content-card div {
-    margin-right: 4rem;
-
+    margin-right: 0;
 }
 
 .content-card div blockquote {
@@ -90,6 +90,7 @@ a {
 .chinua-history h2 {
     text-transform: uppercase;
     color:#270a33;
+    font-size: 2.3rem;
 }
 
 .chinua-history ul {

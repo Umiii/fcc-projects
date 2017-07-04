@@ -1,0 +1,31 @@
+/*
+* Responsive Styles for fcc tribute page
+* 21/2/2017 - Authored by Umi
+*/
+
+
+@media only screen and  (min-width: 768px) {
+    .chinua-pic {
+        display:block;
+        max-width:600px;
+        max-height:400px;
+        margin-top:3rem;
+    }
+
+    .content-card {
+        flex-direction: row;
+    }
+
+    .main-content {
+        display:flex;
+        max-height:1000px;
+    }
+
+    .content-card div {
+        margin-right: 4rem;
+    }
+
+    .chinua-history h2 {
+        font-size: 3rem;
+    }
+}
